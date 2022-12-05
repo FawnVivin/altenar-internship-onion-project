@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/posts.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Onion</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="posts-container">
+      <div class="header__wrapper">
+        <div class="header__title">
+          <h1 class="header__name">Социальные сети</h1>
+          <p class="header__slogan">Делитесь постами из соцсетей</p>
+        </div>
+        <button class="header__button" type="button">
+          <a class="header__button-link" href="create.html">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11 5H9V9H5V11H9V15H11V11H15V9H11V5ZM10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18Z" />
+            </svg>
+            <span class="header__button-text">Добавить</span>
+          </a>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="posts-container">
+      <div class="navbar__wrapper">
+        <input class="navbar__inst-input" type="radio" id="inst" name="socials" checked>
+        <label class="navbar__inst-label" for="inst">instagram</label>
+        <input class="navbar__vk-input" type="radio" id="vk" name="socials">
+        <label class="navbar__vk-label" for="vk">vkontakte</label>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="posts-container">
+      <div class="main__inst-table">
+        <table class="posts-table">
+          <thead class="posts-table__head">
+            <tr>
+              <td>Пост</td>
+              <td>Опубликовано</td>
+              <td>Ссылка</td>
+            </tr>
+          </thead>
+          <tbody class="posts-table__body">
+            <tr class="post-item">
+              <td class="post-item__post">
+                <img class="post-item__img" src="../img/onion.png" alt="post-img">
+                <div class="post-item__post-info">
+                  <p class="post-item__text">Onion</p>
+                  <p class="post-item__subtext">@altenar</p>
+                </div>
+              </td>
+              <td class="post-item__publish">
+                <div class="post-item__publish-info post-item__publish-info_green">
+                  <p class="post-item__text">altenar</p>
+                  <p class="post-item__subtext">25/02/2022</p>
+                </div>
+              </td>
+              <td class="post-item__links">
+                <button class="post-item__link-button" type="button">
+                  <a href="create.html">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1.9 5C1.9 3.29 3.29 1.9 5 1.9H9V0H5C2.24 0 0 2.24 0 5C0 7.76 2.24 10 5 10H9V8.1H5C3.29 8.1 1.9 6.71 1.9 5ZM6 6H14V4H6V6ZM15 0H11V1.9H15C16.71 1.9 18.1 3.29 18.1 5C18.1 6.71 16.71 8.1 15 8.1H11V10H15C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0Z" />
+                    </svg>
+                  </a>
+                </button>
+                <button class="post-item__options-button">
+                  <svg width="4" height="16" viewBox="0 0 4 16" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" />
+                  </svg>
+                </button>
+                <ul class="post-item__options-list">
+                  <li class="post-item__option-item">Опубликовать</li>
+                  <li class="post-item__option-item">Удалить</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="post-item">
+              <td class="post-item__post">
+                <img class="post-item__img" src="../img/onion.png" alt="post-img">
+                <div class="post-item__post-info">
+                  <p class="post-item__text">Onion</p>
+                  <p class="post-item__subtext">@altenar</p>
+                </div>
+              </td>
+              <td class="post-item__publish">
+                <div class="post-item__publish-info post-item__publish-info_red">
+                  <p class="post-item__text">altenar</p>
+                  <p class="post-item__subtext">25/02/2022</p>
+                </div>
+              </td>
+              <td class="post-item__links">
+                <button class="post-item__link-button" type="button">
+                  <a href="create.html">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1.9 5C1.9 3.29 3.29 1.9 5 1.9H9V0H5C2.24 0 0 2.24 0 5C0 7.76 2.24 10 5 10H9V8.1H5C3.29 8.1 1.9 6.71 1.9 5ZM6 6H14V4H6V6ZM15 0H11V1.9H15C16.71 1.9 18.1 3.29 18.1 5C18.1 6.71 16.71 8.1 15 8.1H11V10H15C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0Z" />
+                    </svg>
+                  </a>
+                </button>
+                <button class="post-item__options-button">
+                  <svg width="4" height="16" viewBox="0 0 4 16" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" />
+                  </svg>
+                </button>
+                <ul class="post-item__options-list">
+                  <li class="post-item__option-item">Опубликовать</li>
+                  <li class="post-item__option-item">Удалить</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="post-item">
+              <td class="post-item__post">
+                <img class="post-item__img" src="../img/onion.png" alt="post-img">
+                <div class="post-item__post-info">
+                  <p class="post-item__text">Onion</p>
+                  <p class="post-item__subtext">@altenar</p>
+                </div>
+              </td>
+              <td class="post-item__publish">
+                <div class="post-item__publish-info post-item__publish-info_orange">
+                  <p class="post-item__text">altenar</p>
+                  <p class="post-item__subtext">25/02/2022</p>
+                </div>
+              </td>
+              <td class="post-item__links">
+                <button class="post-item__link-button" type="button">
+                  <a href="create.html">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1.9 5C1.9 3.29 3.29 1.9 5 1.9H9V0H5C2.24 0 0 2.24 0 5C0 7.76 2.24 10 5 10H9V8.1H5C3.29 8.1 1.9 6.71 1.9 5ZM6 6H14V4H6V6ZM15 0H11V1.9H15C16.71 1.9 18.1 3.29 18.1 5C18.1 6.71 16.71 8.1 15 8.1H11V10H15C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0Z" />
+                    </svg>
+                  </a>
+                </button>
+                <button class="post-item__options-button">
+                  <svg width="4" height="16" viewBox="0 0 4 16" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" />
+                  </svg>
+                </button>
+                <ul class="post-item__options-list">
+                  <li class="post-item__option-item">Опубликовать</li>
+                  <li class="post-item__option-item">Удалить</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="post-item">
+              <td class="post-item__post">
+                <img class="post-item__img" src="../img/onion.png" alt="post-img">
+                <div class="post-item__post-info">
+                  <p class="post-item__text">Onion</p>
+                  <p class="post-item__subtext">@altenar</p>
+                </div>
+              </td>
+              <td class="post-item__publish">
+                <div class="post-item__publish-info post-item__publish-info_red">
+                  <p class="post-item__text">altenar</p>
+                  <p class="post-item__subtext">25/02/2022</p>
+                </div>
+              </td>
+              <td class="post-item__links">
+                <button class="post-item__link-button" type="button">
+                  <a href="create.html">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1.9 5C1.9 3.29 3.29 1.9 5 1.9H9V0H5C2.24 0 0 2.24 0 5C0 7.76 2.24 10 5 10H9V8.1H5C3.29 8.1 1.9 6.71 1.9 5ZM6 6H14V4H6V6ZM15 0H11V1.9H15C16.71 1.9 18.1 3.29 18.1 5C18.1 6.71 16.71 8.1 15 8.1H11V10H15C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0Z" />
+                    </svg>
+                  </a>
+                </button>
+                <button class="post-item__options-button">
+                  <svg width="4" height="16" viewBox="0 0 4 16" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" />
+                  </svg>
+                </button>
+                <ul class="post-item__options-list">
+                  <li class="post-item__option-item">Опубликовать</li>
+                  <li class="post-item__option-item">Удалить</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="post-item">
+              <td class="post-item__post">
+                <img class="post-item__img" src="../img/onion.png" alt="post-img">
+                <div class="post-item__post-info">
+                  <p class="post-item__text">Onion</p>
+                  <p class="post-item__subtext">@altenar</p>
+                </div>
+              </td>
+              <td class="post-item__publish">
+                <div class="post-item__publish-info post-item__publish-info_green">
+                  <p class="post-item__text">altenar</p>
+                  <p class="post-item__subtext">25/02/2022</p>
+                </div>
+              </td>
+              <td class="post-item__links">
+                <button class="post-item__link-button" type="button">
+                  <a href="create.html">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1.9 5C1.9 3.29 3.29 1.9 5 1.9H9V0H5C2.24 0 0 2.24 0 5C0 7.76 2.24 10 5 10H9V8.1H5C3.29 8.1 1.9 6.71 1.9 5ZM6 6H14V4H6V6ZM15 0H11V1.9H15C16.71 1.9 18.1 3.29 18.1 5C18.1 6.71 16.71 8.1 15 8.1H11V10H15C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0Z" />
+                    </svg>
+                  </a>
+                </button>
+                <button class="post-item__options-button">
+                  <svg width="4" height="16" viewBox="0 0 4 16" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" />
+                  </svg>
+                </button>
+                <ul class="post-item__options-list">
+                  <li class="post-item__option-item">Опубликовать</li>
+                  <li class="post-item__option-item">Удалить</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="post-item">
+              <td class="post-item__post">
+                <img class="post-item__img" src="../img/onion.png" alt="post-img">
+                <div class="post-item__post-info">
+                  <p class="post-item__text">Onion</p>
+                  <p class="post-item__subtext">@altenar</p>
+                </div>
+              </td>
+              <td class="post-item__publish">
+                <div class="post-item__publish-info post-item__publish-info_green">
+                  <p class="post-item__text">altenar</p>
+                  <p class="post-item__subtext">25/02/2022</p>
+                </div>
+              </td>
+              <td class="post-item__links">
+                <button class="post-item__link-button" type="button">
+                  <a href="create.html">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1.9 5C1.9 3.29 3.29 1.9 5 1.9H9V0H5C2.24 0 0 2.24 0 5C0 7.76 2.24 10 5 10H9V8.1H5C3.29 8.1 1.9 6.71 1.9 5ZM6 6H14V4H6V6ZM15 0H11V1.9H15C16.71 1.9 18.1 3.29 18.1 5C18.1 6.71 16.71 8.1 15 8.1H11V10H15C17.76 10 20 7.76 20 5C20 2.24 17.76 0 15 0Z" />
+                    </svg>
+                  </a>
+                </button>
+                <button class="post-item__options-button">
+                  <svg width="4" height="16" viewBox="0 0 4 16" fill="#757575" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" />
+                  </svg>
+                </button>
+                <ul class="post-item__options-list">
+                  <li class="post-item__option-item">Опубликовать</li>
+                  <li class="post-item__option-item">Удалить</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="main__vk-table">♥ Hello ♥</div>
+    </div>
+  </main>
+</body>
+
+</html>
