@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/create.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Onion</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="create-container">
+      <div class="header__wrapper">
+        <a href="posts.html" class="header__link">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 5.25H2.8725L7.065 1.0575L6 0L0 6L6 12L7.0575 10.9425L2.8725 6.75H12V5.25Z" fill="black"
+              fill-opacity="0.54" />
+          </svg>
+          <span>Вернуться к списку</span>
+        </a>
+        <div class="header__title">
+          <h1 class="header__name">Создайте подборку</h1>
+          <p class="header__info">Перед началом ознакомьтесь с <a href="">гайдлайнами</a>, где вы найдете примеры
+            правильного оформления</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="create-container">
+      <div class="main__left">
+        <form class="form">
+          <fieldset class="form__info">
+            <legend>Расскажите о подборке</legend>
+            <p>Желательно сделать это кратко и ёмко</p>
+            <div class="form__input-wrapper form__input-wrapper_30">
+              <input class="form__input-text" type="text" name="discriptor" placeholder="Дискриптор" maxlength="30">
+            </div>
+            <div class="form__input-wrapper form__input-wrapper_50">
+              <input class="form__input-text" type="text" name="name" placeholder="Название" maxlength="50">
+            </div>
+            <textarea class="form__description" name="description" placeholder="Описание"></textarea>
+          </fieldset>
+          <fieldset class="form__file">
+            <legend>Загрузите обложку</legend>
+            <div class="file-input">
+              <input type="file" name="file" id="file"/>
+              <label for="file"> 
+                  <svg width="31" height="38" viewBox="0 0 31 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M31 9.91846L21.3142 0.0049438V0.0043945H21.3137L21.3094 0L21.3049 0.0043945H3.14592C1.41116 0.0043945 0 1.42676 0 3.1748V34.6187C0 36.3667 1.41116 37.7896 3.14592 37.7896H27.8541C29.5884 37.7896 30.999 36.3667 30.999 34.6187V9.91943L31 9.91846ZM28.1812 9.88452L21.2919 9.80273L21.3077 2.84949L28.1812 9.88452ZM29.0148 34.6187C29.0148 35.2642 28.4945 35.7896 27.8541 35.7896H3.14592C2.5055 35.7896 1.98425 35.2642 1.98425 34.6187V3.1748C1.98425 2.5293 2.5055 2.00439 3.14592 2.00439H19.3261L19.3038 11.7793L29.0148 11.8945V34.6187Z"
+                      fill="black" fill-opacity="0.54" />
+                  </svg>
+                  <div class="file-input__info">
+                    <p class="file-input__text">Перетащите файл или <span>загрузите с компьютера</span></p>
+                    <p class="file-input__subtext">Соотношение 1:1. Минимальный размер 1242х1242 px</p>
+                  </div>
+              </label>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="main__right">
+        <div class="telephone">
+          <div class="telephone__header">
+            <span>22:47</span>
+            <div class="telephone__options">
+              <svg class="telephone__wifi" width="11" height="8" viewBox="0 0 11 8" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.05245 0C6.82733 0 8.62004 0.698998 10.1114 1.97043L9.43835 2.71829C8.20919 1.68322 6.65593 1.11457 5.05245 1.11457C3.44968 1.11457 1.8984 1.6816 0.671574 2.71324L0 1.96538C1.48933 0.697015 3.27935 0 5.05245 0ZM5.05245 2.62075C6.25065 2.62075 7.43698 3.06265 8.4049 3.86766L7.6847 4.66816C6.94148 4.06526 6.01084 3.73442 5.05245 3.73442C4.09604 3.73442 3.16646 4.064 2.42286 4.66492L1.70359 3.86369C2.67132 3.06138 3.85639 2.62075 5.05245 2.62075ZM5.05245 5.20598C5.61418 5.20598 6.186 5.41331 6.67392 5.79157L5.05245 7.59396L3.43257 5.78941C3.91996 5.41241 4.49107 5.20598 5.05245 5.20598Z"
+                  fill="black" />
+              </svg>
+              <svg class="telephone__battery" width="21" height="8" viewBox="0 0 21 8" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21 4C21 4.81421 20.5429 5.47368 19.7143 5.47368V2.52632C20.5429 2.52632 21 3.18596 21 4ZM19.2857 1.26316V6.73684V6.74404C19.2857 7.44147 18.7099 8 18 8H1.28573C0.57567 8 0 7.44147 0 6.74404V6.73684V1.26316C0 0.565542 0.57567 0 1.28573 0H18C18.7099 -1.79937e-07 19.2857 0.565542 19.2857 1.26316ZM1.28573 0.421052C0.813019 0.421052 0.428587 0.79892 0.428587 1.26316V6.73684C0.428587 7.20126 0.813019 7.57895 1.28573 7.57895H18C18.4727 7.57895 18.8571 7.20126 18.8571 6.73684V1.26316C18.8571 0.79892 18.4727 0.421052 18 0.421052H1.28573ZM0.857147 1.26316V6.73684C0.857147 6.96914 1.04945 7.15789 1.28573 7.15789H18C18.2363 7.15789 18.4286 6.96914 18.4286 6.73684V1.26316C18.4286 1.03104 18.2363 0.842105 18 0.842105H1.28573C1.04945 0.842105 0.857147 1.03104 0.857147 1.26316Z"
+                  fill="black" />
+              </svg>
+            </div>
+          </div>
+          <div class="telephone__photo">
+            <img src="../img/camera.png" alt="camera">
+          </div>
+          <div class="telephone__text">
+            <p class="telephone__title">Название</p>
+            <p class="telephone__subtitle">Описание</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

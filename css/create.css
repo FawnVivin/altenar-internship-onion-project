@@ -1,0 +1,270 @@
+@import url(variables.css);
+
+.header {
+  background-color: var(--bg-light-gray);
+  height: 28%;
+  padding: 24px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: inherit;
+}
+
+.create-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header__link span,
+.header__link span:hover {
+  letter-spacing: 0.15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-gray1);
+  margin-left: 12px;
+}
+
+.header__title {
+  width: 350px;
+}
+
+.header__name {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+}
+
+.header__info {
+  margin-top: 15px;
+  color: var(--text-gray1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+}
+
+.header__info a,
+.header__info a:hover {
+  color: var(--bg-blue);
+}
+
+.main {
+  height: 72%;
+}
+
+.main__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  bottom: 16px;
+  width: 59%;
+  background-color: #212121;
+  border-radius: 16px;
+}
+
+.telephone {
+  height: 73%;
+  border-radius: 45px;
+  width: 36.3%;
+  background-color: #fff;
+  border: 14px solid #E4E4E4;
+  padding: 13px 18px;
+}
+
+.telephone__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.telephone__header span {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.telephone__wifi {
+  margin-right: 3px;
+}
+
+.telephone__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 49%;
+}
+
+.telephone__text {
+  margin-top: 62px;
+}
+
+.telephone__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+}
+
+.telephone__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  margin-top: 8px;
+}
+
+.main__left {
+  width: 37.2%;
+  overflow-y: auto;
+  height: 97%;
+
+}
+
+.main__left::-webkit-scrollbar {
+  background-color: transparent;
+  width: 4px;
+}
+
+.main__left::-webkit-scrollbar-thumb {
+  background-color: #BDBDBD;
+  border-radius: 13px;
+}
+
+.form__info {
+  border: 0;
+  margin: 0 31px 0 0;
+  padding: 0 0 32px 0;
+  border-bottom: 1px solid var(--bg-gray-disabled);
+}
+
+.form__info legend,
+.form__file legend {
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+}
+
+.form__info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-gray1);
+  letter-spacing: 0.15px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.form__input-text,
+.form__description {
+  padding: 0 40px 0 12px;
+  letter-spacing: 0.15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  height: 56px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--bg-gray-disabled);
+  margin-top: 16px;
+}
+
+.form__input-wrapper {
+  position: relative;
+}
+
+.form__input-wrapper::after {
+  position: absolute;
+  top: 36px;
+  right: 18px;
+  color: var(--text-gray1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+}
+
+.form__input-text::placeholder,
+.form__description::placeholder {
+  color: var(--text-gray1);
+}
+
+.form__input-wrapper_30::after {
+  content: "30";
+}
+
+.form__input-wrapper_50::after {
+  content: "50";
+}
+
+.form__input-text:focus,
+.form__description:focus {
+  outline: 2px solid var(--bg-blue);
+}
+
+.form__description {
+  resize: none;
+  height: 133px;
+  padding: 18px 12px 18px 12px;
+}
+
+.form__file {
+  border: none;
+  padding: 0;
+  margin: 0 31px 0 0;
+}
+
+.file-input input {
+  display: none;
+}
+
+.file-input label {
+  display: flex;
+  align-items: center;
+  padding: 0 37px;
+  border: 1px dashed rgba(0, 0, 0, 0.38);
+  width: 100%;
+  height: 107px;
+  cursor: pointer;
+}
+
+.file-input label:hover {
+  border: 1px dashed var(--bg-blue);
+  background-color: var(--bg-light-gray);
+}
+.file-input__info {
+  margin-left: 16px;
+}
+
+.file-input__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.file-input__subtext {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  color: var(--text-gray1);
+}
+.file-input__text span{
+  color: var(--bg-blue);
+}
+.form__file legend {
+  margin-bottom: 16px;
+}
