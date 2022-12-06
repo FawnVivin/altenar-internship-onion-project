@@ -243,6 +243,7 @@
   border: 1px dashed var(--bg-blue);
   background-color: var(--bg-light-gray);
 }
+
 .file-input__info {
   margin-left: 16px;
 }
@@ -262,9 +263,11 @@
   letter-spacing: 0.4px;
   color: var(--text-gray1);
 }
-.file-input__text span{
+
+.file-input__text span {
   color: var(--bg-blue);
 }
+
 .form__file legend {
   margin-bottom: 16px;
 }
